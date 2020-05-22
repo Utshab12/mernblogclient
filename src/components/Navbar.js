@@ -19,37 +19,7 @@ import {
 
 class Navbars extends Component{
   
-  componentDidMount(){
-    
-    if(!this.props.token){
-      var login = document.getElementById("login")
-      login.style.display = "block"
 
-      var signup = document.getElementById("signup")
-      signup.style.display = "block"
-
-      var logout  = document.getElementById("logout")
-      logout.style.display = "none"
-      
-      var img  = document.getElementById("img")
-      img.style.display = "none"
-
-    }else{
-      var login = document.getElementById("login")
-      login.style.display = "none"
-
-      var signup = document.getElementById("signup")
-      signup.style.display = "none"
-
-      var logout  = document.getElementById("logout")
-      logout.style.display = "block"
-
-      var img  = document.getElementById("img")
-      img.style.display = "block"
-      
-    }
-  }
-  
   logoutuser = () =>{
     
     axios.post(`https://boiling-savannah-08172.herokuapp.com/user/logout`,'',
