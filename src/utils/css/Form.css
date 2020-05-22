@@ -1,0 +1,40 @@
+.formStyle{
+ background-color: #F1F1F1;
+ margin-top: 150px;
+ border-radius: 3%;
+ border-style: solid;
+ border-color: #2FA5FF;
+ height: 240px;
+  width: 100%;
+}
+
+Form {
+  padding-top: 10px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+Form Label {
+  float: left;
+}
+
+Form Button {
+  float: right;
+  margin-top: 10px;
+}
+
+.forgetAcc {
+  margin-top: 10px
+}
+
+
+.signupformStyle{
+  background-color: #F1F1F1;
+  margin-top: 100px;
+  border-radius: 3%;
+  border-style: solid;
+  border-color: #2FA5FF;
+  height: 280px;
+   width: 100%;
+ }
